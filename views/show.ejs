@@ -1,0 +1,50 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+    <style type="text/css">
+         body {
+              color: blanchedalmond;
+              background-color: steelblue;
+              font-family: 'DotGothic16', sans-serif;
+            }
+        h1,h2{
+                text-align: center;
+            }
+        img {
+                border-radius: 1rem;
+                max-width: 50%;
+                margin-left: 200px;
+                
+            }
+        p {
+            text-align: center;
+        }
+      </style>
+</head>
+<body>
+    <!-- <h1>Your Pokemon's Infor</h1> -->
+
+    <!-- <p><a href="/pokemon"> Back to Main Page </a></p> <br><br> -->
+
+    <!-- <%= pokemon.name.charAt(0).toUpperCase()+pokemon.name.slice(1) %> <br><br> -->
+    <!-- <img src= "<%= pokemon.img; %>" alt="<%= pokemon.name; %>"/> -->
+
+    <h1> Gotta Catch 'Em All </h1><br>
+    <h2>
+        <%= pokemon.name.charAt(0).toUpperCase()+pokemon.name.slice(1) %> 
+    </h2><br>
+
+    <img src= "<%= pokemon.img; %>.jpg" alt="<%= pokemon.name; %>"/><br><br>
+
+    <p><a href="/pokemon">Back</a></p>
+
+
+
+ 
+
+</body>
+</html>
